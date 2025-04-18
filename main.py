@@ -1,5 +1,5 @@
 # python program to check if x is a perfect square
-import math
+'''import math
 def isPerfectSquare(x):
 	s = int(math.sqrt(x))
 	return s*s == x
@@ -9,4 +9,9 @@ for i in range(1, 11):
 	if (isFibonacci(i) == True):
 		print(i, "is a Fibonacci Number")
 	else:
-		print(i, "is a not Fibonacci Number ")
+		print(i, "is a not Fibonacci Number ")'''
+
+import random
+
+my_list = [1, 'a', 32, 'c', 'd', 31]
+print(random.choice(my_list))
